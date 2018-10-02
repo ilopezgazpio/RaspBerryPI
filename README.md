@@ -29,11 +29,11 @@ key_mgmt=WPA-PSK
 }
 ```
 where NAME_SSID is the Wi-Fi connection name and SSID_PASSWORD is the password to acces that network.
-Update the two letter country code (i.e. ES) following https://www.iso.org/obp/ui/#search and the Wi-Fi security mode (i.e. WPA-PSK) accoding to your particular specifications.
+Update the two letter country code (i.e. ES) following https://www.iso.org/obp/ui/#search and the Wi-Fi security mode (i.e. WPA-PSK) according to your particular specifications.
 
-If the Wi-Fi connections is made using hotspot functionality of Android devices, we can later on use the Hotspot-manager app to check the IP addresses of devices connected to that network.
+If the Wi-Fi connection is made using hotspot functionality of Android devices, we can later on use the Hotspot-manager app to check the IP addresses of the devices connected to that network.
 
-7. Insert the SD card in the board and connect it to power through the Micro USB cable. Wait some minutes.
+7. Insert the SD card in the board and connect it to power through the Micro USB cable (~5v ~2.1A, check your board info). Wait some minutes.
 
 8. Connect to the board through ssh using "pi" as user and "raspberry" as password.
 ```
