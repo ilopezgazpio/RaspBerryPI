@@ -8,10 +8,12 @@ Project to play with a RaspBerry PI board
 (Tested Operating System: RASPBIAN STRETCH LITE with Kernel 4.14, headless version with no desktop)
 4. Burn Raspbian image in a SD card with at least 16GB using etcher
 5. Navigate to the boot volume of the SD and create an empty file named "ssh", with no extension.
-This will enable ssh acces to board
+This will enable ssh acces to the board
 6. Connect the board to the internet. There are several alternatives for this:
+
 6.1 Connect through RJ45
 The connection is automatic but we will need to find the IP address of the board manually. We can log in to the router and discover the IP address of the device or scan the net (watch-out) using a scanner such as nmap.
+
 6.2 Connect through Wi-Fi
 We need to create a file named "wpa_supplicant.conf" in the boot volume of the SD card, with this content:
 ```
